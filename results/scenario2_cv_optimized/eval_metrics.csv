@@ -1,0 +1,8 @@
+Class ID,Class Name,Pos Samples,Global Dice,Global IoU,Precision,Recall,Pos-Only Dice
+0,atelectasis,60,0.0000,0.0000,0.0000,0.0000,0.0000
+1,cavitation,4,0.0000,0.0000,0.0000,0.0000,0.0000
+2,infiltrate,482,0.3098,0.1833,0.4128,0.2479,0.1722
+3,lymphadenopathy,2,0.0000,0.0000,0.0000,0.0000,0.0000
+4,pleural_effusion,270,0.0156,0.0078,0.3752,0.0079,0.0020
+5,pneumothorax,37,0.1105,0.0585,0.0641,0.3990,0.3105
+6,tb_lesion,81,0.2195,0.1233,0.1329,0.6294,0.4760
