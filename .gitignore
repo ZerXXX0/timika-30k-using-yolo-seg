@@ -1,0 +1,70 @@
+# ==============================================================================
+# Git Ignore Configuration - Timika-30K YOLO Pipeline
+# ==============================================================================
+
+# --- Datasets (Heavy raw & preprocessed image data) ---
+timika-30k/
+yolo_dataset/
+yolo_dataset_scenario2/
+yolo_dataset*/
+*.cache
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# --- Model Checkpoints & Pretrained Weights ---
+*.pt
+*.pth
+*.onnx
+*.engine
+*.bin
+*.tflite
+
+# --- Training, Validation & Prediction Runs ---
+runs/
+yolo_pipeline/runs/
+!yolo_pipeline/runs/**/eval_metrics.csv
+!yolo_pipeline/runs/**/eval_metrics.txt
+
+# --- Python & Environment Cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Virtual Environments ---
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# --- IDE & OS Metadata ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.log
